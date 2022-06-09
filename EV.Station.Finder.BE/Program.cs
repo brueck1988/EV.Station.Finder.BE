@@ -1,4 +1,6 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿global using StationAPI.Data;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
